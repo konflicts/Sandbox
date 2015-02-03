@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C378E56189B1DD900A3DC1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C378E55189B1DD900A3DC1C /* Foundation.framework */; };
+		9C378E58189B1DD900A3DC1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C378E57189B1DD900A3DC1C /* CoreGraphics.framework */; };
+		9C378E5A189B1DD900A3DC1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C378E59189B1DD900A3DC1C /* UIKit.framework */; };
+		9C378E60189B1DD900A3DC1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C378E5E189B1DD900A3DC1C /* InfoPlist.strings */; };
+		9C378E62189B1DD900A3DC1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C378E61189B1DD900A3DC1C /* main.m */; };
+		9C378E66189B1DD900A3DC1C /* TRWebServiceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C378E65189B1DD900A3DC1C /* TRWebServiceAppDelegate.m */; };
+		9C378E69189B1DD900A3DC1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C378E67189B1DD900A3DC1C /* Main.storyboard */; };
+		9C378E6E189B1DD900A3DC1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C378E6D189B1DD900A3DC1C /* Images.xcassets */; };
+		9C378E75189B1DD900A3DC1C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C378E74189B1DD900A3DC1C /* XCTest.framework */; };
+		9C378E76189B1DD900A3DC1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C378E55189B1DD900A3DC1C /* Foundation.framework */; };
+		9C378E77189B1DD900A3DC1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C378E59189B1DD900A3DC1C /* UIKit.framework */; };
+		9C378E7F189B1DD900A3DC1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C378E7D189B1DD900A3DC1C /* InfoPlist.strings */; };
+		9C378E81189B1DD900A3DC1C /* TRWebServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C378E80189B1DD900A3DC1C /* TRWebServiceTests.m */; };
+		9C378E8C189B1EC600A3DC1C /* WSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C378E8B189B1EC600A3DC1C /* WSTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C378E78189B1DD900A3DC1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C378E4A189B1DD900A3DC1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C378E51189B1DD900A3DC1C;
+			remoteInfo = TRWebService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C378E52189B1DD900A3DC1C /* TRWebService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRWebService.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C378E55189B1DD900A3DC1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9C378E57189B1DD900A3DC1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9C378E59189B1DD900A3DC1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9C378E5D189B1DD900A3DC1C /* TRWebService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TRWebService-Info.plist"; sourceTree = "<group>"; };
+		9C378E5F189B1DD900A3DC1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9C378E61189B1DD900A3DC1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C378E63189B1DD900A3DC1C /* TRWebService-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TRWebService-Prefix.pch"; sourceTree = "<group>"; };
+		9C378E64189B1DD900A3DC1C /* TRWebServiceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRWebServiceAppDelegate.h; sourceTree = "<group>"; };
+		9C378E65189B1DD900A3DC1C /* TRWebServiceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRWebServiceAppDelegate.m; sourceTree = "<group>"; };
+		9C378E68189B1DD900A3DC1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C378E6D189B1DD900A3DC1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9C378E73189B1DD900A3DC1C /* TRWebServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRWebServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C378E74189B1DD900A3DC1C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9C378E7C189B1DD900A3DC1C /* TRWebServiceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TRWebServiceTests-Info.plist"; sourceTree = "<group>"; };
+		9C378E7E189B1DD900A3DC1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9C378E80189B1DD900A3DC1C /* TRWebServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRWebServiceTests.m; sourceTree = "<group>"; };
+		9C378E8A189B1EC600A3DC1C /* WSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSTableViewController.h; path = ../WSTableViewController.h; sourceTree = "<group>"; };
+		9C378E8B189B1EC600A3DC1C /* WSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSTableViewController.m; path = ../WSTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C378E4F189B1DD900A3DC1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C378E58189B1DD900A3DC1C /* CoreGraphics.framework in Frameworks */,
+				9C378E5A189B1DD900A3DC1C /* UIKit.framework in Frameworks */,
+				9C378E56189B1DD900A3DC1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C378E70189B1DD900A3DC1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C378E75189B1DD900A3DC1C /* XCTest.framework in Frameworks */,
+				9C378E77189B1DD900A3DC1C /* UIKit.framework in Frameworks */,
+				9C378E76189B1DD900A3DC1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C378E49189B1DD900A3DC1C = {
+			isa = PBXGroup;
+			children = (
+				9C378E5B189B1DD900A3DC1C /* TRWebService */,
+				9C378E7A189B1DD900A3DC1C /* TRWebServiceTests */,
+				9C378E54189B1DD900A3DC1C /* Frameworks */,
+				9C378E53189B1DD900A3DC1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C378E53189B1DD900A3DC1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C378E52189B1DD900A3DC1C /* TRWebService.app */,
+				9C378E73189B1DD900A3DC1C /* TRWebServiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C378E54189B1DD900A3DC1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C378E55189B1DD900A3DC1C /* Foundation.framework */,
+				9C378E57189B1DD900A3DC1C /* CoreGraphics.framework */,
+				9C378E59189B1DD900A3DC1C /* UIKit.framework */,
+				9C378E74189B1DD900A3DC1C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C378E5B189B1DD900A3DC1C /* TRWebService */ = {
+			isa = PBXGroup;
+			children = (
+				9C378E8A189B1EC600A3DC1C /* WSTableViewController.h */,
+				9C378E8B189B1EC600A3DC1C /* WSTableViewController.m */,
+				9C378E64189B1DD900A3DC1C /* TRWebServiceAppDelegate.h */,
+				9C378E65189B1DD900A3DC1C /* TRWebServiceAppDelegate.m */,
+				9C378E67189B1DD900A3DC1C /* Main.storyboard */,
+				9C378E6D189B1DD900A3DC1C /* Images.xcassets */,
+				9C378E5C189B1DD900A3DC1C /* Supporting Files */,
+			);
+			path = TRWebService;
+			sourceTree = "<group>";
+		};
+		9C378E5C189B1DD900A3DC1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C378E5D189B1DD900A3DC1C /* TRWebService-Info.plist */,
+				9C378E5E189B1DD900A3DC1C /* InfoPlist.strings */,
+				9C378E61189B1DD900A3DC1C /* main.m */,
+				9C378E63189B1DD900A3DC1C /* TRWebService-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C378E7A189B1DD900A3DC1C /* TRWebServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C378E80189B1DD900A3DC1C /* TRWebServiceTests.m */,
+				9C378E7B189B1DD900A3DC1C /* Supporting Files */,
+			);
+			path = TRWebServiceTests;
+			sourceTree = "<group>";
+		};
+		9C378E7B189B1DD900A3DC1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C378E7C189B1DD900A3DC1C /* TRWebServiceTests-Info.plist */,
+				9C378E7D189B1DD900A3DC1C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C378E51189B1DD900A3DC1C /* TRWebService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C378E84189B1DD900A3DC1C /* Build configuration list for PBXNativeTarget "TRWebService" */;
+			buildPhases = (
+				9C378E4E189B1DD900A3DC1C /* Sources */,
+				9C378E4F189B1DD900A3DC1C /* Frameworks */,
+				9C378E50189B1DD900A3DC1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRWebService;
+			productName = TRWebService;
+			productReference = 9C378E52189B1DD900A3DC1C /* TRWebService.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C378E72189B1DD900A3DC1C /* TRWebServiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C378E87189B1DD900A3DC1C /* Build configuration list for PBXNativeTarget "TRWebServiceTests" */;
+			buildPhases = (
+				9C378E6F189B1DD900A3DC1C /* Sources */,
+				9C378E70189B1DD900A3DC1C /* Frameworks */,
+				9C378E71189B1DD900A3DC1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C378E79189B1DD900A3DC1C /* PBXTargetDependency */,
+			);
+			name = TRWebServiceTests;
+			productName = TRWebServiceTests;
+			productReference = 9C378E73189B1DD900A3DC1C /* TRWebServiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C378E4A189B1DD900A3DC1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TRWebService;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pedo Peña";
+				TargetAttributes = {
+					9C378E72189B1DD900A3DC1C = {
+						TestTargetID = 9C378E51189B1DD900A3DC1C;
+					};
+				};
+			};
+			buildConfigurationList = 9C378E4D189B1DD900A3DC1C /* Build configuration list for PBXProject "TRWebService" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C378E49189B1DD900A3DC1C;
+			productRefGroup = 9C378E53189B1DD900A3DC1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C378E51189B1DD900A3DC1C /* TRWebService */,
+				9C378E72189B1DD900A3DC1C /* TRWebServiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C378E50189B1DD900A3DC1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C378E6E189B1DD900A3DC1C /* Images.xcassets in Resources */,
+				9C378E60189B1DD900A3DC1C /* InfoPlist.strings in Resources */,
+				9C378E69189B1DD900A3DC1C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C378E71189B1DD900A3DC1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C378E7F189B1DD900A3DC1C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C378E4E189B1DD900A3DC1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C378E62189B1DD900A3DC1C /* main.m in Sources */,
+				9C378E8C189B1EC600A3DC1C /* WSTableViewController.m in Sources */,
+				9C378E66189B1DD900A3DC1C /* TRWebServiceAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C378E6F189B1DD900A3DC1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C378E81189B1DD900A3DC1C /* TRWebServiceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C378E79189B1DD900A3DC1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C378E51189B1DD900A3DC1C /* TRWebService */;
+			targetProxy = 9C378E78189B1DD900A3DC1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C378E5E189B1DD900A3DC1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C378E5F189B1DD900A3DC1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9C378E67189B1DD900A3DC1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C378E68189B1DD900A3DC1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C378E7D189B1DD900A3DC1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C378E7E189B1DD900A3DC1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C378E82189B1DD900A3DC1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9C378E83189B1DD900A3DC1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C378E85189B1DD900A3DC1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRWebService/TRWebService-Prefix.pch";
+				INFOPLIST_FILE = "TRWebService/TRWebService-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9C378E86189B1DD900A3DC1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRWebService/TRWebService-Prefix.pch";
+				INFOPLIST_FILE = "TRWebService/TRWebService-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9C378E88189B1DD900A3DC1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TRWebService.app/TRWebService";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRWebService/TRWebService-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TRWebServiceTests/TRWebServiceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9C378E89189B1DD900A3DC1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TRWebService.app/TRWebService";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRWebService/TRWebService-Prefix.pch";
+				INFOPLIST_FILE = "TRWebServiceTests/TRWebServiceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C378E4D189B1DD900A3DC1C /* Build configuration list for PBXProject "TRWebService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C378E82189B1DD900A3DC1C /* Debug */,
+				9C378E83189B1DD900A3DC1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C378E84189B1DD900A3DC1C /* Build configuration list for PBXNativeTarget "TRWebService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C378E85189B1DD900A3DC1C /* Debug */,
+				9C378E86189B1DD900A3DC1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C378E87189B1DD900A3DC1C /* Build configuration list for PBXNativeTarget "TRWebServiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C378E88189B1DD900A3DC1C /* Debug */,
+				9C378E89189B1DD900A3DC1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C378E4A189B1DD900A3DC1C /* Project object */;
+}

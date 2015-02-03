@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CDF40DC1893128700694C91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDF40DB1893128700694C91 /* Foundation.framework */; };
+		9CDF40DE1893128700694C91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDF40DD1893128700694C91 /* CoreGraphics.framework */; };
+		9CDF40E01893128700694C91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDF40DF1893128700694C91 /* UIKit.framework */; };
+		9CDF40E61893128700694C91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CDF40E41893128700694C91 /* InfoPlist.strings */; };
+		9CDF40E81893128700694C91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF40E71893128700694C91 /* main.m */; };
+		9CDF40EC1893128700694C91 /* ClientEBTMasterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF40EB1893128700694C91 /* ClientEBTMasterAppDelegate.m */; };
+		9CDF40EF1893128700694C91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CDF40ED1893128700694C91 /* Main.storyboard */; };
+		9CDF40F21893128700694C91 /* ClientEBTMasterMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF40F11893128700694C91 /* ClientEBTMasterMasterViewController.m */; };
+		9CDF40F51893128700694C91 /* ClientEBTMasterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF40F41893128700694C91 /* ClientEBTMasterDetailViewController.m */; };
+		9CDF40F71893128700694C91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CDF40F61893128700694C91 /* Images.xcassets */; };
+		9CDF40FE1893128700694C91 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDF40FD1893128700694C91 /* XCTest.framework */; };
+		9CDF40FF1893128700694C91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDF40DB1893128700694C91 /* Foundation.framework */; };
+		9CDF41001893128700694C91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDF40DF1893128700694C91 /* UIKit.framework */; };
+		9CDF41081893128700694C91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CDF41061893128700694C91 /* InfoPlist.strings */; };
+		9CDF410A1893128700694C91 /* ClientEBTMasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF41091893128700694C91 /* ClientEBTMasterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CDF41011893128700694C91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CDF40D01893128700694C91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CDF40D71893128700694C91;
+			remoteInfo = ClientEBTMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9CDF40D81893128700694C91 /* ClientEBTMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClientEBTMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CDF40DB1893128700694C91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9CDF40DD1893128700694C91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9CDF40DF1893128700694C91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9CDF40E31893128700694C91 /* ClientEBTMaster-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClientEBTMaster-Info.plist"; sourceTree = "<group>"; };
+		9CDF40E51893128700694C91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9CDF40E71893128700694C91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CDF40E91893128700694C91 /* ClientEBTMaster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClientEBTMaster-Prefix.pch"; sourceTree = "<group>"; };
+		9CDF40EA1893128700694C91 /* ClientEBTMasterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientEBTMasterAppDelegate.h; sourceTree = "<group>"; };
+		9CDF40EB1893128700694C91 /* ClientEBTMasterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientEBTMasterAppDelegate.m; sourceTree = "<group>"; };
+		9CDF40EE1893128700694C91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CDF40F01893128700694C91 /* ClientEBTMasterMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientEBTMasterMasterViewController.h; sourceTree = "<group>"; };
+		9CDF40F11893128700694C91 /* ClientEBTMasterMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientEBTMasterMasterViewController.m; sourceTree = "<group>"; };
+		9CDF40F31893128700694C91 /* ClientEBTMasterDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientEBTMasterDetailViewController.h; sourceTree = "<group>"; };
+		9CDF40F41893128700694C91 /* ClientEBTMasterDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientEBTMasterDetailViewController.m; sourceTree = "<group>"; };
+		9CDF40F61893128700694C91 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9CDF40FC1893128700694C91 /* ClientEBTMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClientEBTMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CDF40FD1893128700694C91 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9CDF41051893128700694C91 /* ClientEBTMasterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClientEBTMasterTests-Info.plist"; sourceTree = "<group>"; };
+		9CDF41071893128700694C91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9CDF41091893128700694C91 /* ClientEBTMasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientEBTMasterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CDF40D51893128700694C91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CDF40DE1893128700694C91 /* CoreGraphics.framework in Frameworks */,
+				9CDF40E01893128700694C91 /* UIKit.framework in Frameworks */,
+				9CDF40DC1893128700694C91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CDF40F91893128700694C91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CDF40FE1893128700694C91 /* XCTest.framework in Frameworks */,
+				9CDF41001893128700694C91 /* UIKit.framework in Frameworks */,
+				9CDF40FF1893128700694C91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CDF40CF1893128700694C91 = {
+			isa = PBXGroup;
+			children = (
+				9CDF40E11893128700694C91 /* ClientEBTMaster */,
+				9CDF41031893128700694C91 /* ClientEBTMasterTests */,
+				9CDF40DA1893128700694C91 /* Frameworks */,
+				9CDF40D91893128700694C91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CDF40D91893128700694C91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CDF40D81893128700694C91 /* ClientEBTMaster.app */,
+				9CDF40FC1893128700694C91 /* ClientEBTMasterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CDF40DA1893128700694C91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CDF40DB1893128700694C91 /* Foundation.framework */,
+				9CDF40DD1893128700694C91 /* CoreGraphics.framework */,
+				9CDF40DF1893128700694C91 /* UIKit.framework */,
+				9CDF40FD1893128700694C91 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CDF40E11893128700694C91 /* ClientEBTMaster */ = {
+			isa = PBXGroup;
+			children = (
+				9CDF40EA1893128700694C91 /* ClientEBTMasterAppDelegate.h */,
+				9CDF40EB1893128700694C91 /* ClientEBTMasterAppDelegate.m */,
+				9CDF40ED1893128700694C91 /* Main.storyboard */,
+				9CDF40F01893128700694C91 /* ClientEBTMasterMasterViewController.h */,
+				9CDF40F11893128700694C91 /* ClientEBTMasterMasterViewController.m */,
+				9CDF40F31893128700694C91 /* ClientEBTMasterDetailViewController.h */,
+				9CDF40F41893128700694C91 /* ClientEBTMasterDetailViewController.m */,
+				9CDF40F61893128700694C91 /* Images.xcassets */,
+				9CDF40E21893128700694C91 /* Supporting Files */,
+			);
+			path = ClientEBTMaster;
+			sourceTree = "<group>";
+		};
+		9CDF40E21893128700694C91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CDF40E31893128700694C91 /* ClientEBTMaster-Info.plist */,
+				9CDF40E41893128700694C91 /* InfoPlist.strings */,
+				9CDF40E71893128700694C91 /* main.m */,
+				9CDF40E91893128700694C91 /* ClientEBTMaster-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CDF41031893128700694C91 /* ClientEBTMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CDF41091893128700694C91 /* ClientEBTMasterTests.m */,
+				9CDF41041893128700694C91 /* Supporting Files */,
+			);
+			path = ClientEBTMasterTests;
+			sourceTree = "<group>";
+		};
+		9CDF41041893128700694C91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CDF41051893128700694C91 /* ClientEBTMasterTests-Info.plist */,
+				9CDF41061893128700694C91 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CDF40D71893128700694C91 /* ClientEBTMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CDF410D1893128700694C91 /* Build configuration list for PBXNativeTarget "ClientEBTMaster" */;
+			buildPhases = (
+				9CDF40D41893128700694C91 /* Sources */,
+				9CDF40D51893128700694C91 /* Frameworks */,
+				9CDF40D61893128700694C91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClientEBTMaster;
+			productName = ClientEBTMaster;
+			productReference = 9CDF40D81893128700694C91 /* ClientEBTMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CDF40FB1893128700694C91 /* ClientEBTMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CDF41101893128700694C91 /* Build configuration list for PBXNativeTarget "ClientEBTMasterTests" */;
+			buildPhases = (
+				9CDF40F81893128700694C91 /* Sources */,
+				9CDF40F91893128700694C91 /* Frameworks */,
+				9CDF40FA1893128700694C91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CDF41021893128700694C91 /* PBXTargetDependency */,
+			);
+			name = ClientEBTMasterTests;
+			productName = ClientEBTMasterTests;
+			productReference = 9CDF40FC1893128700694C91 /* ClientEBTMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CDF40D01893128700694C91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ClientEBTMaster;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pedo Peña";
+				TargetAttributes = {
+					9CDF40FB1893128700694C91 = {
+						TestTargetID = 9CDF40D71893128700694C91;
+					};
+				};
+			};
+			buildConfigurationList = 9CDF40D31893128700694C91 /* Build configuration list for PBXProject "ClientEBTMaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CDF40CF1893128700694C91;
+			productRefGroup = 9CDF40D91893128700694C91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CDF40D71893128700694C91 /* ClientEBTMaster */,
+				9CDF40FB1893128700694C91 /* ClientEBTMasterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CDF40D61893128700694C91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CDF40F71893128700694C91 /* Images.xcassets in Resources */,
+				9CDF40E61893128700694C91 /* InfoPlist.strings in Resources */,
+				9CDF40EF1893128700694C91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CDF40FA1893128700694C91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CDF41081893128700694C91 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CDF40D41893128700694C91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CDF40F51893128700694C91 /* ClientEBTMasterDetailViewController.m in Sources */,
+				9CDF40E81893128700694C91 /* main.m in Sources */,
+				9CDF40F21893128700694C91 /* ClientEBTMasterMasterViewController.m in Sources */,
+				9CDF40EC1893128700694C91 /* ClientEBTMasterAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CDF40F81893128700694C91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CDF410A1893128700694C91 /* ClientEBTMasterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CDF41021893128700694C91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CDF40D71893128700694C91 /* ClientEBTMaster */;
+			targetProxy = 9CDF41011893128700694C91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CDF40E41893128700694C91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CDF40E51893128700694C91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9CDF40ED1893128700694C91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CDF40EE1893128700694C91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CDF41061893128700694C91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CDF41071893128700694C91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CDF410B1893128700694C91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9CDF410C1893128700694C91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CDF410E1893128700694C91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClientEBTMaster/ClientEBTMaster-Prefix.pch";
+				INFOPLIST_FILE = "ClientEBTMaster/ClientEBTMaster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9CDF410F1893128700694C91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClientEBTMaster/ClientEBTMaster-Prefix.pch";
+				INFOPLIST_FILE = "ClientEBTMaster/ClientEBTMaster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9CDF41111893128700694C91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClientEBTMaster.app/ClientEBTMaster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClientEBTMaster/ClientEBTMaster-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ClientEBTMasterTests/ClientEBTMasterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9CDF41121893128700694C91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClientEBTMaster.app/ClientEBTMaster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClientEBTMaster/ClientEBTMaster-Prefix.pch";
+				INFOPLIST_FILE = "ClientEBTMasterTests/ClientEBTMasterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CDF40D31893128700694C91 /* Build configuration list for PBXProject "ClientEBTMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CDF410B1893128700694C91 /* Debug */,
+				9CDF410C1893128700694C91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CDF410D1893128700694C91 /* Build configuration list for PBXNativeTarget "ClientEBTMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CDF410E1893128700694C91 /* Debug */,
+				9CDF410F1893128700694C91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9CDF41101893128700694C91 /* Build configuration list for PBXNativeTarget "ClientEBTMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CDF41111893128700694C91 /* Debug */,
+				9CDF41121893128700694C91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CDF40D01893128700694C91 /* Project object */;
+}
