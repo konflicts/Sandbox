@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C82AAB71A854C5A00013F26 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C82AAB61A854C5A00013F26 /* TaskCell.swift */; };
 		9CAD3D811A81873C00A5F80F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAD3D801A81873C00A5F80F /* AppDelegate.swift */; };
 		9CAD3D831A81873C00A5F80F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAD3D821A81873C00A5F80F /* ViewController.swift */; };
 		9CAD3D861A81873C00A5F80F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CAD3D841A81873C00A5F80F /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C82AAB61A854C5A00013F26 /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 		9CAD3D7B1A81873C00A5F80F /* TaskIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CAD3D7F1A81873C00A5F80F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CAD3D801A81873C00A5F80F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				9CAD3D801A81873C00A5F80F /* AppDelegate.swift */,
 				9CAD3D821A81873C00A5F80F /* ViewController.swift */,
 				9CAD3D841A81873C00A5F80F /* Main.storyboard */,
+				9C82AAB61A854C5A00013F26 /* TaskCell.swift */,
 				9CAD3D871A81873C00A5F80F /* Images.xcassets */,
 				9CAD3D891A81873C00A5F80F /* LaunchScreen.xib */,
 				9CAD3D7E1A81873C00A5F80F /* Supporting Files */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CAD3D831A81873C00A5F80F /* ViewController.swift in Sources */,
+				9C82AAB71A854C5A00013F26 /* TaskCell.swift in Sources */,
 				9CAD3D811A81873C00A5F80F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +411,7 @@
 				9CAD3D9C1A81873C00A5F80F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CAD3D9D1A81873C00A5F80F /* Build configuration list for PBXNativeTarget "TaskItTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				9CAD3D9F1A81873C00A5F80F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
