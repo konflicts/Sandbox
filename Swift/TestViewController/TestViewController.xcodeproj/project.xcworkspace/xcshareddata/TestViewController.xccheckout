@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>08A72233-3CAF-4511-A289-C8E10C2FF654</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TestViewController</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E32A77391A4C2DD05BC3CBD48C1EDF2D02DC96EB</key>
+		<string>https://github.com/konflicts/Sandbox.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Swift/TestViewController/TestViewController.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E32A77391A4C2DD05BC3CBD48C1EDF2D02DC96EB</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/konflicts/Sandbox.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E32A77391A4C2DD05BC3CBD48C1EDF2D02DC96EB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E32A77391A4C2DD05BC3CBD48C1EDF2D02DC96EB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Sandbox</string>
+		</dict>
+	</array>
+</dict>
+</plist>
