@@ -80,5 +80,11 @@ class ViewController: UIViewController , UITableViewDataSource, UITableViewDeleg
         
         performSegueWithIdentifier("showTaskDetail", sender: self)
     }
+    
+    @IBAction func addButtonAdded(sender: UIBarButtonItem)
+    {
+       self.performSegueWithIdentifier("showTaskAdd", sender: self)
+    }
+    
 }
 

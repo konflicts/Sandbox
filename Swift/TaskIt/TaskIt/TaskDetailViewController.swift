@@ -37,4 +37,8 @@ class TaskDetailViewController: UIViewController {
     }
     
 
+    @IBAction func cancelButtonTapped(sender: UIBarButtonItem)
+    {
+        self.navigationController?.popViewControllerAnimated(true)
+    }
 }
